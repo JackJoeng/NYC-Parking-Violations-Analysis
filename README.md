@@ -12,7 +12,7 @@ The Open Parking and Camera Violations dataset was initially loaded with all vio
 ### Dataset API : https://data.cityofnewyork.us/resource/nc67-uf89.json
 
 
-Principles of Big Data Technologies: 
+## Principles of Big Data Technologies: 
 - Containerization 
 - Terminal navigation
 - Python scripting 
