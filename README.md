@@ -1,6 +1,6 @@
 # Analyzing Millions of NYC Parking Violations
 
-## Problem Statement:
+**Problem Statement:**
 
 Parking violations do not affect your driving record, however, they sometimes can lead to serious consequences such as expensive fines and your vehicles being “booted,” towed, or even impounded. The goal of this project is to conduct an analysis on a dataset containing millions of NYC parking violations since January 2016. 
 
