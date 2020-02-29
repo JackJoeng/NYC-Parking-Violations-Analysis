@@ -1,6 +1,6 @@
 # Analyzing Millions of NYC Parking Violations
 
-**Problem Statement:**
+## Problem Statement:
 
 Parking violations do not affect your driving record, however, they sometimes can lead to serious consequences such as expensive fines and your vehicles being “booted,” towed, or even impounded. The goal of this project is to conduct an analysis on a dataset containing millions of NYC parking violations since January 2016. 
 
@@ -9,7 +9,7 @@ Parking violations do not affect your driving record, however, they sometimes ca
 
 The Open Parking and Camera Violations dataset was initially loaded with all violations contained in the mainframe database as of May 2016. 
 
-## Dataset API : https://data.cityofnewyork.us/resource/nc67-uf89.json
+### Dataset API : https://data.cityofnewyork.us/resource/nc67-uf89.json
 
 
 Principles of Big Data Technologies: 
