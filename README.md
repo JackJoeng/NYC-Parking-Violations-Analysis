@@ -34,7 +34,6 @@ This project will be broken into three parts:
 ### File Structure
 
   ```console
-  .
   ├── Dockerfile
   ├── main.py
   ├── requirements.txt
