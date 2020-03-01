@@ -23,10 +23,10 @@ The Open Parking and Camera Violations dataset was initially loaded with all vio
 
 This project will be broken into three parts:
 
-- Part 1: Python Scripting
-- Part 2: Loading into ElasticSearch
-- Part 3: Visualizing and Analysis on Kibana
-- Part 4: Deploying to EC2 Instance
+- Phase 1: Python Scripting
+- Phase 2: Loading into ElasticSearch
+- Phase 3: Visualizing and Analysis on Kibana
+- Phase 4: Deploying to EC2 Instance
 
 
 ## Phase 1: Python Scripting	
