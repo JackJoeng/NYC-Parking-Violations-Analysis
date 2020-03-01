@@ -71,7 +71,7 @@ $ docker run -v $(pwd):/app -e APP_KEY=${Your API Key} -it bigdata1:1.0 python -
 1. Run the following command line: 
 
 ```
-$ sudo docker run -e APP_KEY=${YOUR API KEY} -v ${PWD}:/app/out -it jackjoeng/bigdata1:1.0 python -m main --page_size=1 --num_pages=2 --output=./out/results.json 
+$ sudo docker run -e APP_KEY=${YOUR API KEY} -v ${pwd}:/app/out -it jackjoeng/bigdata1:1.0 python -m main --page_size=1 --num_pages=2 --output=./out/results.json 
 ```
 
 ## Phase 2: Coming soon
