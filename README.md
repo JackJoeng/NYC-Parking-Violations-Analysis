@@ -52,7 +52,7 @@ $ docker build -t bigdata1:1.0 .
 ```
 3. Run the following command line:
 ```
-$ docker run -v $(pwd):/app -e APP_KEY=${Your API Key} -it bigdata1:1.0 python -m main --page_size=1 --num_pages=2 --output=results.json
+$ docker run -v ${pwd}:/app -e APP_KEY=${Your API Key} -it bigdata1:1.0 python -m main --page_size=1 --num_pages=2 --output=results.json
 ```
 
 #### Key arguments:
