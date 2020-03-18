@@ -134,19 +134,21 @@ docker-compose down
 
 ![Time_Field](/Phase_3/image/issueDate.png)
 
-#### Top 5 Most Frequent Violations
+#### Visualizations
+
+1. Top 5 Most Frequent Violations
 ![Pie_Chart](/Phase_3/image/pie.png)
 
-#### Top 10 Plates Ranked by No. of Violations
+2. Top 10 Plates Ranked by No. of Violations
 ![Heatmap](/Phase_3/image/heatmap.png)
 
-#### No. of Summons Issued by Each Agency Per Year 
+3. No. of Summons Issued by Each Agency Per Year 
 ![Bar_Chart1](/Phase_3/image/bar1.png)
 
-#### Top 5 Counties with Highest Average Reduction Amount
+4. Top 5 Counties with Highest Average Reduction Amount
 ![Bar_Chart2](/Phase_3/image/bar2.png)
 
-#### No. of Issued Summons Per Year
+5. No. of Issued Summons Per Year
 ![Line_Chart](/Phase_3/image/line.png)
 
 ## Phase 4: Coming soon
