@@ -134,7 +134,7 @@ docker-compose down
 
 ![Time_Field](/Phase_3/image/issueDate.png)
 
-#### Visualizations
+### Visualizations:
 
 1. Top 5 Most Frequent Violations
 ![Pie_Chart](/Phase_3/image/pie.png)
