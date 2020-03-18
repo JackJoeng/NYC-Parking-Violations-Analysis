@@ -73,7 +73,7 @@ $ docker run -v ${pwd}:/app -e APP_KEY=${Your API Key} -it bigdata1:1.0 python -
 $ sudo docker run -e APP_KEY=${YOUR API KEY} -v ${pwd}:/app/out -it jackjoeng/bigdata1:1.0 python -m main --page_size=1 --num_pages=2 --output=./out/results.json 
 ```
 
-## Phase 2: Coming soon
+## Phase 2: Loading into ElasticSearch
 
 ### File Structure
 
@@ -169,7 +169,7 @@ Finally, this line chart displays the trend of the total number of summons issue
 #### Dashboard:
 ![Dashboard](/Phase_3/image/dashboard.png)
 
-## Phase 4: Coming soon
+## Phase 4: Deploying to EC2 Instance (Coming soon...)
 
 ***Jack Yang Copy Right 2020***
 https://github.com/JackJoeng/NYC-Parking-Violations-Analysis
