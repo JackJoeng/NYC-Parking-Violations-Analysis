@@ -140,21 +140,31 @@ docker-compose down
 1. Top 5 Most Frequent Violations
 ![Pie_Chart](/Phase_3/image/pie.png)
 
+The pie chart only consist data of the top 5 most frequent violations, which are No Standing-Day/Time Limits, Insp. Sticker-Expired/Missing, No Parking-Day/Time Limits, No Parking-Street Cleaning, and Fail to Display MUNI Meter RECPT. From the chart, we know that No Parking-Street Cleaning is the most frequent violation, which makes 30.78% of the five.
+
 #### Heatmap
 2. Top 10 Plates Ranked by No. of Violations
 ![Heatmap](/Phase_3/image/heatmap.png)
 
+From this heatmap, we know the top 10 plates that are ranked by the number of violations. 
+
 #### Bar Chart 1
-3. No. of Summons Issued by Each Agency Per Year 
+3. No. of Average Reduction Amount by County Per Year 
 ![Bar_Chart1](/Phase_3/image/bar1.png)
 
+The bar chart shows the average of reduction amount of each county. The amount is also grouped by year. 
+
 #### Bar Chart 2
-4. Top 5 Counties with Highest Average Reduction Amount
+4. No. of Summons Issued by Each Agency Per Year
 ![Bar_Chart2](/Phase_3/image/bar2.png)
+
+From this bar chart, we can see the number of summons issued by each corresponding agency per year. 
 
 #### Line Chart
 5. No. of Issued Summons Per Year
 ![Line_Chart](/Phase_3/image/line.png)
+
+Finally, this line chart displays the trend of the total number of summons issued by year. 
 
 #### Dashboard:
 ![Dashboard](/Phase_3/image/dashboard.png)
