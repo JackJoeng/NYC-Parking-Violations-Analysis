@@ -157,7 +157,7 @@ docker-compose down
 ![Line_Chart](/Phase_3/image/line.png)
 
 #### Dashboard:
-![Dashboard](/Phase_3/image/line.png)
+![Dashboard](/Phase_3/image/dashboard.png)
 
 ## Phase 4: Coming soon
 
