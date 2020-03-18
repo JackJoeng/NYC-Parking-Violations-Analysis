@@ -21,7 +21,7 @@ The Open Parking and Camera Violations dataset was initially loaded with all vio
 
 **Project Phases**
 
-This project will be broken into three parts:
+This project will be broken into four phases:
 
 - Phase 1: Python Scripting
 - Phase 2: Loading into ElasticSearch
@@ -74,7 +74,81 @@ $ sudo docker run -e APP_KEY=${YOUR API KEY} -v ${pwd}:/app/out -it jackjoeng/bi
 ```
 
 ## Phase 2: Coming soon
-## Phase 3: Coming soon
+
+### File Structure
+
+```console
+├── Dockerfile
+├── main.py
+├── requirements.txt
+├── docker-compose.yml
+└── src
+└── bigdata1
+└── opcvapi.py
+└── elasticsearch.py
+```
+**Running in Local:**
+
+1. Git clone the repository (Phase 2)
+
+2. Build image from Dockerfile
+```
+$ docker build -t bigdata1:1.0 .
+```
+3. Start ElasticSearch and Kibana
+```
+$ docker-compose up -d
+```
+4. Run ElasticSearch and Kibana
+```
+$ docker-compose run -v ${PWD}:/app -e APP_TOKEN=${YOUR API KEY} pyth /bin/bash
+```
+5. Run the following command:
+```
+$ python -m main --page_size=100 --num_pages=100 --output=results.json
+```
+This will load citibike dock data into Elasticsearch at a cadence of once / 30s.
+
+6. Querying elasticsearch via curl
+```
+curl http://localhost:9200/bigdata1/violations/_search?q=state:NY&size=1
+```
+
+Alternatively, in your web browser run 
+```
+http://localhost:9200/bigdata1/violations/_search?q=state:NY&size=1
+```
+
+![Line_Chart](/Phase_2/image/output.png)
+
+7. Shutting off
+```
+docker-compose down
+```
+
+## Phase 3: Visualizing and Analysis on Kibana
+
+#### Open Kibana in your web browser; http://localhost:5601 
+
+#### Define a time field
+
+![Time_Field](/Phase_3/image/issueDate.png)
+
+#### Top 5 Most Frequent Violations
+![Pie_Chart](/Phase_3/image/pie.png)
+
+#### Top 10 Plates Ranked by No. of Violations
+![Heatmap](/Phase_3/image/heatmap.png)
+
+#### No. of Summons Issued by Each Agency Per Year 
+![Bar_Chart1](/Phase_3/image/bar1.png)
+
+#### Top 5 Counties with Highest Average Reduction Amount
+![Bar_Chart2](/Phase_3/image/bar2.png)
+
+#### No. of Issued Summons Per Year
+![Line_Chart](/Phase_3/image/line.png)
+
 ## Phase 4: Coming soon
 
 ***Jack Yang Copy Right 2020***
