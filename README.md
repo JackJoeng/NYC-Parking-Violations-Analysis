@@ -140,7 +140,7 @@ docker-compose down
 1. Top 5 Most Frequent Violations
 ![Pie_Chart](/Phase_3/image/pie.png)
 
-The pie chart only consist data of the top 5 most frequent violations, which are No Standing-Day/Time Limits, Insp. Sticker-Expired/Missing, No Parking-Day/Time Limits, No Parking-Street Cleaning, and Fail to Display MUNI Meter RECPT. From the chart, we know that No Parking-Street Cleaning is the most frequent violation, which makes 30.78% of the five.
+The pie chart only consists the data of the top 5 most frequent violations, which are No Standing-Day/Time Limits, Insp. Sticker-Expired/Missing, No Parking-Day/Time Limits, No Parking-Street Cleaning, and Fail to Display MUNI Meter RECPT. From the chart, we know that No Parking-Street Cleaning is the most frequent violation, which makes 30.78% of the five.
 
 #### Heatmap
 2. Top 10 Plates Ranked by No. of Violations
